@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> My Tetris </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <canvas id="tetris" width="200" height="400"></canvas>
+        <div>
+            Score : <div id="score">0</div>    
+        </div>
+
+        <!-- Audio element for Tetris theme song -->
+        <audio id="tetris-theme" src="korobeiniki.mp3" loop></audio>
+        <!-- Volume control -->
+        <input type="range" id="volume-control" min="0" max="100" value="50">
+        <!-- Mute/Unmute button -->
+        <button id="mute-button">Mute</button>
+
+        <script src="tetrominoes.js"></script>
+        <script src="my_tetris.js"></script>
+    </body>
+</html>

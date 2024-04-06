@@ -1,0 +1,23 @@
+#score {
+    display: inline-block;
+    }
+
+    
+div {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+/* Additional styles for audio controls */
+#volume-control {
+    margin-top: 10px;
+}
+
+#mute-button {
+    margin-top: 10px;
+}
